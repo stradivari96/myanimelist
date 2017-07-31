@@ -1,0 +1,300 @@
+
+    @import "https://mal-image.appspot.com/anime/stradivari96";
+@import url(https://storage.live.com/items/4A07C1EEED420167%21162);
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import "https://fonts.googleapis.com/css?family=Handlee";
+
+/*BACKGROUND*/
+body {
+	background-attachment:fixed !important;
+	background-image:url(https://i.imgur.com/yXVkOJ9.jpg?1);
+	background-position:0 0;
+	background-size:cover;
+}
+
+#list_surround {
+	left:100px !important;
+	position:absolute !important;
+}
+
+/*HEADER AND LIST PROPERTIES*/
+#list_surround {
+	background-attachment:scroll;
+	background-color:transparent;
+	background-image:url(https://i.imgur.com/Q6P8T43.png);
+	background-position:-18px -134px;
+	background-repeat:no-repeat no-repeat;
+	font-size:14px;
+	line-height:1;
+	margin:0 auto;
+	padding-bottom:10px;
+	padding-top:100px;
+	width:600px;
+}
+
+/*FONT*/
+body {
+	color:#FFFFFF;
+	font-family:Handlee;
+}
+
+a {
+	-webkit-transition:all 0.25s ease-in-out 0s;
+	color:#FFFFFF;
+	text-decoration:none;
+	text-shadow:none;
+	transition:all 0.25s ease-in-out 0s;
+}
+
+a:hover {
+}
+
+.table_header {
+	background-color:rgba(0, 0, 0, 0.8);
+	height:20px;
+}
+
+.table_header:first-of-type {
+	border-bottom-left-radius:0;
+	border-bottom-right-radius:0;
+	border-top-left-radius:10px;
+	border-top-right-radius:0;
+}
+
+.table_header:nth-of-type(2) {
+	text-align:left;
+}
+
+.table_header:last-of-type {
+	border-bottom-left-radius:0;
+	border-bottom-right-radius:0;
+	border-top-left-radius:0;
+	border-top-right-radius:10px;
+}
+
+.td1 {
+	-webkit-transition:all 0.25s ease-in-out 0s;
+	background-color:rgba(105, 0, 0, 0.5);
+	height:20px;
+	transition:all 0.25s ease-in-out 0s;
+}
+
+.td2 {
+	-webkit-transition:all 0.25s ease-in-out 0s;
+	background-color:rgba(0, 0, 0, 0.498039);
+	height:20px;
+	transition:all 0.25s ease-in-out 0s;
+}
+
+tr:hover [class^="td"] {
+	background-color:rgba(250, 150, 50, 0.8);
+}
+
+.td1:nth-of-type(2), .td2:nth-of-type(2) {
+	text-align:left;
+}
+
+.table_header, .td1, .td2, .status_selected, .status_not_selected, .category_totals {
+	border:0;
+	padding:4px;
+	text-align:center;
+	vertical-align:middle;
+}
+
+.table_header, .td1, .td2, .category_totals {
+	line-height:20px;
+}
+
+.borderRBL {
+	line-height:normal !important;
+}
+
+[cellspacing="0"] {
+	line-height:20px;
+}
+
+.category_totals {
+	background-color:rgba(0, 0, 0, 0.8);
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	border-top-left-radius:0;
+	border-top-right-radius:0;
+	color:#FFFFFF;
+	line-height:15px;
+	text-align:center;
+}
+
+[class^="header_"] * {
+	font-size:30px;
+	height:60px;
+	line-height:20px;
+	padding-bottom:10px;
+	padding-left:6px;
+	text-align:center;
+	text-shadow:black 2px 1px;
+	vertical-align:bottom;
+}
+
+.header_title {
+	font-family: 'Shadows Into Light', cursive;
+	border-bottom-left-radius:4px;
+	border-bottom-right-radius:4px;
+	border-top-left-radius:4px;
+	border-top-right-radius:4px;
+	color:#FFFFFF;
+	display:inline-block;
+	height:auto;
+	padding:0 8px 0 0;
+	text-shadow:rgba(0, 0, 0, 0.14902) 0 1px 1px;
+}
+
+#grand_totals {
+	background-color:rgba(0, 0, 0, 0.8);
+	border:0 none;
+	border-bottom-left-radius:3px;
+	border-bottom-right-radius:3px;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	color:#FFFFFF;
+	line-height:20px;
+	min-height:20px;
+	padding:8px;
+	text-align:center;
+	vertical-align:middle;
+}
+
+#copyright {
+	background-color:rgba(0, 0, 0, 0.8);
+	border-bottom-left-radius:3px;
+	border-bottom-right-radius:3px;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	color:#EEEEEE;
+	line-height:17px;
+	margin-top:10px;
+	padding:8px;
+	text-align:center;
+}
+
+.animetitle + small {
+	color:#F5B800 !important;
+	text-shadow:black 1px 1px;
+}
+
+#copyright::after {
+}
+
+/*WATCHING_ICON AND BORDERS*/
+/*
+#list_surround .status_selected, #list_surround .status_not_selected {
+	display: none;
+}
+*/
+
+/* COVERS */
+
+.hide {
+    background-position: center !important;
+    background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 25px 25px 25px 25px;
+	display: block !important;/**/
+	opacity: 0;/**/
+	transition: opacity 0.12s linear 0.08s;/**/
+    height: 400px;
+    padding-bottom: 0;
+    position: fixed;
+    left: 720px;
+    top: 220px;
+    width: 250px;
+}
+
+:hover + .hide {
+	opacity: 1;
+}
+/*PETALS*/
+
+#inlineContent {
+	background: url(https://i.imgur.com/QpyGLjq.gif) repeat fixed transparent !important;
+	display: inline-block !important;
+	height: 100% !important;
+	left: 0 !important;
+	margin: auto !important;
+	position: fixed !important;
+	right: 0 !important;
+	top: 0 !important;
+	width: 100% !important;
+	z-index: -1 !important;
+}
+
+
+/*
+#inlineContent {
+	display: inline !important;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+@keyframes sparkle {
+	0% { background-position: 0 0, 0 0; }
+	100% { background-position: 1000px 1200px, 1000px 100px; }
+}
+
+#inlineContent:before {
+	position: fixed;
+	display: block;
+	content: '';
+	left: 20%;
+	bottom: 0;
+	margin-left: -40%;
+	width: 1000%;
+	height: 100%;
+	background-image: url(http://i567.photobucket.com/albums/ss112/assisan_2009/Naruto%20PNG/sakuravirgok.png);
+	animation: sparkle 8s 	linear infinite;
+}
+*/
+
+
+/*CURSOR*/
+a, body { cursor: url(https://dl.dropbox.com/s/42maok7o78t0w0d/gam1340.cur) 1 1, auto; }
+
+
+/*Remove more link*/
+#list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(3),
+#list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(4),
+#list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(5),
+#list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(6),
+#list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(7),
+#list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(8) {
+    display: tab\le-cell;
+}
+
+#list_surround small a:last-of-type {
+    display: none !important;
+}
+
+.animetitle + small {
+    visibility: visible !important;
+}
+
+#list_surround a[href*="http://myanimelist.net/panel.php?go=edit"],
+#list_surround a[href*="http://myanimelist.net/editlist.php?type="],
+#list_surround a[href*="http://myanimelist.net/panel.php?go=add"] {
+    visibility: visible !important;
+    margin-right: 10px
+}
+
+.td1:nth-of-type(6) small, .td2:nth-of-type(6) small,
+.td1:nth-of-type(5) small, .td2:nth-of-type(5) small,
+.td1:nth-of-type(4) small, .td2:nth-of-type(4) small {
+    visibility: visible !important;
+}
+
+.td1:nth-of-type(6) small:hover, .td2:nth-of-type(6) small:hover,
+.td1:nth-of-type(5) small:hover, .td2:nth-of-type(5) small:hover,
+.td1:nth-of-type(4) small:hover, .td2:nth-of-type(4) small:hover{
+    text-decoration: underline;
+}
+  

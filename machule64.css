@@ -1,0 +1,246 @@
+
+    @import "https://mal-image.appspot.com/anime/machule64";
+@import url(https://dl.dropboxusercontent.com/u/118667597/blackmenu.css);
+@import "https://fonts.googleapis.com/css?family=Handlee";
+/*
+@font-face {
+    font-family: beacon;
+    src: url(https://dl.dropbox.com/s/k0f3nd4ml7qb1ao/beacon.ttf);
+}
+*/
+
+body {
+	cursor: url(http://cur.cursors-4u.net/others/oth-8/oth704.cur) 1 1, auto;
+	background-attachment: fixed;
+	background-image: url(http://img14.deviantart.net/9bec/i/2015/122/8/8/shokugeki_no_soma_hd_wallpaper_by_tammypain-d8ruaqp.png);
+	background-size: cover;
+	background-repeat: no-repeat no-repeat;
+	color:#FFFFFF;
+	font-family:Handlee;
+}
+
+
+
+#list_surround {
+	left:5% !important;
+	position:absolute !important;
+	background-attachment:scroll;
+	background-color:transparent;
+	background-image:url(http://i.imgur.com/iQRq8qS.png);
+	background-position:-18px -134px;
+	background-repeat:no-repeat no-repeat;
+	font-size:16px;
+	line-height:1;
+	margin:0 auto;
+	padding-bottom:10px;
+	padding-top:100px;
+	width:600px;
+}
+
+a {
+	-webkit-transition:all 0.25s ease-in-out 0s;
+	color:#FFFFFF;
+	text-decoration:none;
+	text-shadow:none;
+	transition:all 0.25s ease-in-out 0s;
+}
+
+a:hover {
+}
+
+.table_header {
+	background-color:rgba(0, 0, 0, 0.6);
+	height:20px;
+}
+
+.table_header:nth-of-type(2) {
+	text-align:left;
+}
+
+
+
+.td1 {
+	background-color:rgba(230,40,50,0.6);
+	height:20px;
+	-webkit-transition:all 0.15s ease-in-out 0s;
+	transition:all 0.15s ease-in-out 0s;
+}
+
+.td2 {
+	background-color:rgba(0,0,0,0.6);
+	height:20px;
+	-webkit-transition:all 0.15s ease-in-out 0s;
+	transition:all 0.15s ease-in-out 0s;
+}
+
+tr:hover [class^="td"] {
+	background-color:rgba(250, 150, 50, 0.8);
+
+}
+
+.td1:nth-of-type(2), .td2:nth-of-type(2) {
+	text-align:left;
+}
+
+.table_header, .td1, .td2, .status_selected, .status_not_selected, .category_totals {
+	border:0;
+	padding:4px;
+	text-align:center;
+	vertical-align:middle;
+}
+
+.table_header, .td1, .td2, .category_totals {
+	line-height:20px;
+}
+
+.borderRBL {
+	line-height:normal !important;
+}
+
+[cellspacing="0"] {
+	line-height:20px;
+}
+
+.category_totals {
+	padding-top: 20px;
+	background-color:rgba(0,0,0,0.6);
+	border-top-left-radius:0;
+	border-top-right-radius:0;
+	font-size: 18px;
+	color: #FFFAAA;
+	line-height:15px;
+	text-align:center;
+}
+
+[class^="header_"] * {
+	font-size:30px;
+	height:60px;
+	line-height:20px;
+	padding-bottom:10px;
+	padding-left:6px;
+	text-align:center;
+	text-shadow:black 2px 1px;
+	vertical-align:bottom;
+}
+
+.header_title {
+	font-family: arial;
+	border-bottom-left-radius:4px;
+	border-bottom-right-radius:4px;
+	border-top-left-radius:4px;
+	border-top-right-radius:4px;
+	color:#FFFFFF;
+	display:inline-block;
+	font-style:italic;
+	height:auto;
+	padding:0 8px 0 0;
+	text-shadow:rgba(0, 0, 0, 0.14902) 0 1px 1px;
+}
+
+#grand_totals {
+	background-color:rgba(0, 0, 0, 0.6);
+	border:0 none;
+	border-bottom-left-radius:3px;
+	border-bottom-right-radius:3px;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	color:#FFFFFF;
+	line-height:20px;
+	min-height:20px;
+	padding:8px;
+	text-align:center;
+	vertical-align:middle;
+}
+
+#copyright {
+	background-color:rgba(0, 0, 0, 0.8);
+	border-bottom-left-radius:3px;
+	border-bottom-right-radius:3px;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	color:#EEEEEE;
+	line-height:17px;
+	margin-top:10px;
+	padding:8px;
+	text-align:center;
+}
+
+.animetitle + small {
+	color:#F5B800 !important;
+	text-shadow:black 1px 1px;
+}
+
+#copyright::after {
+}
+
+#list_surround .status_selected, #list_surround .status_not_selected {
+	display: none;
+}
+
+:hover + .hide {
+    background-color: transparent;
+    background-position: center 50% !important;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    display: block !important;
+    height: 400px;
+    padding-bottom: 0;
+    position: fixed;
+    left: 720px;
+    bottom: 0px;
+    width: 250px;
+}
+
+
+
+ /*Remove more link*/
+#list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(3),
+#list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(4),
+#list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(5),
+#list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(6),
+#list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(7),
+#list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(8) {
+    display: tab\le-cell;
+}
+
+#list_surround small a:last-of-type {
+    display: none !important;
+}
+
+.animetitle + small {
+    visibility: visible !important;
+}
+
+#list_surround a[href*="http://myanimelist.net/panel.php?go=edit"],
+#list_surround a[href*="http://myanimelist.net/editlist.php?type="],
+#list_surround a[href*="http://myanimelist.net/panel.php?go=add"] {
+    visibility: visible !important;
+    margin-right: 10px
+}
+
+.td1:nth-of-type(6) small, .td2:nth-of-type(6) small,
+.td1:nth-of-type(5) small, .td2:nth-of-type(5) small,
+.td1:nth-of-type(4) small, .td2:nth-of-type(4) small {
+    visibility: visible !important;
+}
+
+.td1:nth-of-type(6) small:hover, .td2:nth-of-type(6) small:hover,
+.td1:nth-of-type(5) small:hover, .td2:nth-of-type(5) small:hover,
+.td1:nth-of-type(4) small:hover, .td2:nth-of-type(4) small:hover{
+    text-decoration: underline;
+  /*
+#inlineContent {
+	background: url(http://i1231.photobucket.com/albums/ee507/AVTuffGong/Realistic-fire-animated-transparent-gif-short.gif);
+	background: url(https://dl.dropboxusercontent.com/content_link/yWyxXXxGOqxgCglOG8wZRqDkj7i4dgCWofTQXcD3rKg38kQn33OLomxvMpzL3Wn2/file?size=1280x960&size_mode=3);
+	background-color: transparent;
+	background-repeat: repeat-x;
+	display: block !important;
+	height: 20% !important;
+	left: 0px !important;
+	position: fixed;
+	right: 0px !important;
+	bottom: 0px !important;
+	width: 100% !important;
+	z-index: -1 !important;
+}
+*/
