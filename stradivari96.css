@@ -258,7 +258,7 @@ tr:hover [class^="td"] {
 
 
 /*CURSOR*/
-a, body { cursor: url(https://dl.dropbox.com/s/42maok7o78t0w0d/gam1340.cur) 1 1, auto; }
+a, body { cursor: url(https://github.com/stradivari96/Myanimelist/blob/master/lol.cur?raw=true) 1 1, auto; }
 
 
 /*Remove more link*/
@@ -297,4 +297,3 @@ a, body { cursor: url(https://dl.dropbox.com/s/42maok7o78t0w0d/gam1340.cur) 1 1,
 .td1:nth-of-type(4) small:hover, .td2:nth-of-type(4) small:hover{
     text-decoration: underline;
 }
-  
