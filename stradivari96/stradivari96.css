@@ -1,6 +1,6 @@
 
 @import "https://mal-image.appspot.com/anime/stradivari96";
-@import url(https://cdn.rawgit.com/stradivari96/Myanimelist/master/blacktopbar.css);
+@import url(https://gitcdn.link/repo/stradivari96/Myanimelist/master/stradivari96/blacktopbar.css);
 @import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
 @import "https://fonts.googleapis.com/css?family=Handlee";
 
@@ -258,7 +258,7 @@ tr:hover [class^="td"] {
 
 
 /*CURSOR*/
-a, body { cursor: url(https://github.com/stradivari96/Myanimelist/blob/master/lol.cur?raw=true) 1 1, auto; }
+a, body { cursor: url(https://github.com/stradivari96/Myanimelist/blob/master/stradivari96/lol.cur?raw=true) 1 1, auto; }
 
 
 /*Remove more link*/
