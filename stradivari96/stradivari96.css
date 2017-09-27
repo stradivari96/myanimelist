@@ -213,8 +213,9 @@ tr:hover [class^="td"] {
 :hover + .hide {
 	opacity: 1;
 }
-/*PETALS*/
 
+
+/*PETALS
 #inlineContent {
 	background: url(https://i.imgur.com/QpyGLjq.gif) repeat fixed transparent !important;
 	display: inline-block !important;
@@ -227,7 +228,7 @@ tr:hover [class^="td"] {
 	width: 100% !important;
 	z-index: -1 !important;
 }
-
+*/
 
 /*
 #inlineContent {
