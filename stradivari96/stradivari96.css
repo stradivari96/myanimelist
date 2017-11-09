@@ -132,7 +132,7 @@ tr:hover [class^="td"] {
 	display: none;
 }
 
-.animetitle + small {
+.animetitle + small,[id^="tagLinks"] * {
 	color:#F5B800 !important;
 	text-shadow:black 1px 1px;
 }
