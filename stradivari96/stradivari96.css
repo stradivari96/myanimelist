@@ -7,11 +7,11 @@
 a, body { 
 	cursor: url(https://github.com/stradivari96/Myanimelist/blob/master/stradivari96/lol.cur?raw=true) 1 1, auto;
 }
+
 body {
 	color:#FFFFFF;
 	font-family:Handlee;
 	background-attachment:fixed !important;
-	transform: translateZ(0);
 	background-image:url(https://i.imgur.com/RayEfMY.gif);
 	background-size:cover;
 }
