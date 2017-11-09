@@ -4,148 +4,148 @@
 @import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
 @import "https://fonts.googleapis.com/css?family=Handlee";
 
-a, body { 
-	cursor: url(https://github.com/stradivari96/Myanimelist/blob/master/stradivari96/lol.cur?raw=true) 1 1, auto;
+a, body {
+    cursor: url(https://github.com/stradivari96/Myanimelist/blob/master/stradivari96/lol.cur?raw=true) 1 1, auto;
 }
 
 body {
-	color:#FFFFFF;
-	font-family:Handlee;
-	background-attachment:fixed !important;
-	background-image:url(https://i.imgur.com/RayEfMY.gif);
-	background-size:cover;
+    color:#FFFFFF;
+    font-family:Handlee;
+    background-attachment:fixed !important;
+    background-image:url(https://i.imgur.com/RayEfMY.gif);
+    background-size:cover;
 }
 
 #list_surround {
-	left:100px !important;
-	position:absolute !important;
-	background-attachment:scroll;
-	background-color:transparent;
-	background-image:url(https://i.imgur.com/Q6P8T43.png);
-	background-position:-18px -134px;
-	background-repeat:no-repeat no-repeat;
-	font-size:14px;
-	line-height:1;
-	margin:0 auto;
-	padding-bottom:10px;
-	padding-top:100px;
-	width:600px;
+    left:100px !important;
+    position:absolute !important;
+    background-attachment:scroll;
+    background-color:transparent;
+    background-image:url(https://i.imgur.com/Q6P8T43.png);
+    background-position:-18px -134px;
+    background-repeat:no-repeat no-repeat;
+    font-size:14px;
+    line-height:1;
+    margin:0 auto;
+    padding-bottom:10px;
+    padding-top:100px;
+    width:600px;
 }
 
 a {
-	color:#FFFFFF;
-	text-decoration:none;
+    color:#FFFFFF;
+    text-decoration:none;
 }
 
 .table_header,.category_totals {
-	background-color:rgba(0, 0, 0, 0.8);
-	height:20px;
+    background-color:rgba(0, 0, 0, 0.8);
+    height:20px;
 }
 
 .category_totals {
-	border-bottom-left-radius:10px;
-	border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
 }
 
 .table_header:first-of-type {
-	border-top-left-radius:10px;
+    border-top-left-radius:10px;
 }
 
 .table_header:nth-of-type(2) {
-	text-align:left;
+    text-align:left;
 }
 
 .table_header:last-of-type {
-	border-top-right-radius:10px;
+    border-top-right-radius:10px;
 }
 
 .td1, .td2 {
-	-webkit-transition:all 0.25s ease-in-out 0s;
-	height:20px;
-	transition:all 0.25s ease-in-out 0s;
+    -webkit-transition:all 0.25s ease-in-out 0s;
+    height:20px;
+    transition:all 0.25s ease-in-out 0s;
 }
 
 .td1 {
-	background-color:rgba(105, 0, 0, 0.5);
+    background-color:rgba(105, 0, 0, 0.5);
 }
 
 .td2 {
-	background-color:rgba(0, 0, 0, 0.498039);
+    background-color:rgba(0, 0, 0, 0.498039);
 }
 
 tr:hover [class^="td"] {
-	background-color:rgba(250, 150, 50, 0.8);
+    background-color:rgba(250, 150, 50, 0.8);
 }
 
 .td1:nth-of-type(2), .td2:nth-of-type(2) {
-	text-align:left;
+    text-align:left;
 }
 
 .table_header, .td1, .td2, .status_selected, .status_not_selected, .category_totals {
-	border:0;
-	padding:4px;
-	text-align:center;
-	vertical-align:middle;
+    border:0;
+    padding:4px;
+    text-align:center;
+    vertical-align:middle;
 }
 
 .table_header, .td1, .td2, .category_totals {
-	line-height:20px;
+    line-height:20px;
 }
 
 .borderRBL {
-	line-height:normal !important;
+    line-height:normal !important;
 }
 
 [class^="header_"] * {
-	font-size:30px;
-	height:60px;
-	line-height:20px;
-	padding-bottom:10px;
-	padding-left:6px;
-	text-align:center;
-	text-shadow:black 2px 1px;
-	vertical-align:bottom;
+    font-size:30px;
+    height:60px;
+    line-height:20px;
+    padding-bottom:10px;
+    padding-left:6px;
+    text-align:center;
+    text-shadow:black 2px 1px;
+    vertical-align:bottom;
 }
 
 .header_title {
-	font-family: 'Shadows Into Light', cursive;
-	height:auto;
-	padding:0 8px 0 0;
+    font-family: 'Shadows Into Light', cursive;
+    height:auto;
+    padding:0 8px 0 0;
 }
 
 #grand_totals {
-	background-color:rgba(0, 0, 0, 0.8);
-	border:0 none;
-	border-bottom-left-radius:3px;
-	border-bottom-right-radius:3px;
-	border-top-left-radius:3px;
-	border-top-right-radius:3px;
-	color:#FFFFFF;
-	line-height:20px;
-	min-height:20px;
-	padding:8px;
-	text-align:center;
-	vertical-align:middle;
+    background-color:rgba(0, 0, 0, 0.8);
+    border:0 none;
+    border-bottom-left-radius:3px;
+    border-bottom-right-radius:3px;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+    color:#FFFFFF;
+    line-height:20px;
+    min-height:20px;
+    padding:8px;
+    text-align:center;
+    vertical-align:middle;
 }
 
 #copyright {
-	display: none;
+    display: none;
 }
 
 .animetitle + small,[id^="tagLinks"] * {
-	color:#F5B800 !important;
-	text-shadow:black 1px 1px;
+    color:#F5B800 !important;
+    text-shadow:black 1px 1px;
 }
 
 
 .hide {
     background-position: center !important;
     background-size: cover;
-  	background-repeat: no-repeat;
-	border-radius: 25px 25px 25px 25px;
-	display: block !important;
-	opacity: 0;
-	transition: opacity 0.12s linear 0.08s;
+    background-repeat: no-repeat;
+    border-radius: 25px 25px 25px 25px;
+    display: block !important;
+    opacity: 0;
+    transition: opacity 0.12s linear 0.08s;
     height: 400px;
     position: fixed;
     left: 720px;
@@ -154,10 +154,14 @@ tr:hover [class^="td"] {
 }
 
 :hover + .hide {
-	opacity: 1;
+    opacity: 1;
 }
 
 /*Remove more link*/
 #list_surround div small a:last-of-type{
     display: none;
+}
+
+.td1:nth-of-type(6) small:hover, .td2:nth-of-type(6) small:hover{
+    text-decoration: underline;
 }
