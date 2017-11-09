@@ -162,6 +162,6 @@ tr:hover [class^="td"] {
     display: none;
 }
 
-.td1:nth-of-type(6) small:hover, .td2:nth-of-type(6) small:hover{
+#list_surround div small a:first-of-type:hover,.td1:nth-of-type(6) small:hover, .td2:nth-of-type(6) small:hover{
     text-decoration: underline;
 }
