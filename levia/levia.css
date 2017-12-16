@@ -9,3 +9,7 @@ top: -75px;
 left: 620px;
 position: absolute;
 }
+
+td[class^='td']:last-child {
+    width: 52px !important;
+}
