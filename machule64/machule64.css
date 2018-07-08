@@ -1,7 +1,9 @@
 
-    @import "https://mal-image.appspot.com/anime/machule64";
+@import "https://mal-image.appspot.com/anime/machule64";
 @import url(https://dl.dropboxusercontent.com/u/118667597/blackmenu.css);
 @import "https://fonts.googleapis.com/css?family=Handlee";
+@import url(https://rawgit.com/stradivari96/Myanimelist/master/machule64/covers.css);
+
 /*
 @font-face {
     font-family: beacon;
