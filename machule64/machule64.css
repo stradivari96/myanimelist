@@ -1,8 +1,7 @@
 
-@import "https://mal-image.appspot.com/anime/machule64";
-@import url(https://dl.dropboxusercontent.com/u/118667597/blackmenu.css);
-@import "https://fonts.googleapis.com/css?family=Handlee";
-@import url(https://rawgit.com/stradivari96/Myanimelist/master/machule64/covers.css);
+@\import "https://malscraper.azurewebsites.net/covers/auto/presets/more";
+@\import "https://dl.dropboxusercontent.com/u/118667597/blackmenu.css";
+@\import "https://fonts.googleapis.com/css?family=Handlee";
 
 /*
 @font-face {
@@ -231,19 +230,3 @@ tr:hover [class^="td"] {
 .td1:nth-of-type(5) small:hover, .td2:nth-of-type(5) small:hover,
 .td1:nth-of-type(4) small:hover, .td2:nth-of-type(4) small:hover{
     text-decoration: underline;
-  /*
-#inlineContent {
-	background: url(http://i1231.photobucket.com/albums/ee507/AVTuffGong/Realistic-fire-animated-transparent-gif-short.gif);
-	background: url(https://dl.dropboxusercontent.com/content_link/yWyxXXxGOqxgCglOG8wZRqDkj7i4dgCWofTQXcD3rKg38kQn33OLomxvMpzL3Wn2/file?size=1280x960&size_mode=3);
-	background-color: transparent;
-	background-repeat: repeat-x;
-	display: block !important;
-	height: 20% !important;
-	left: 0px !important;
-	position: fixed;
-	right: 0px !important;
-	bottom: 0px !important;
-	width: 100% !important;
-	z-index: -1 !important;
-}
-*/
