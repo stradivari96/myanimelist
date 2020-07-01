@@ -1,0 +1,453 @@
+@\import "https://malcat-gen.appspot.com/series?preset=more";
+@\import "https://fonts.googleapis.com/css?family=Patrick+Hand+SC";
+
+* {
+  font-family: "Patrick Hand SC" !important;
+  text-decoration: none;
+}
+body {
+  background-attachment: fixed;
+  background-clip: border-box;
+  background-color: transparent;
+  background-image: url(https://image.myanimelist.net/ui/LHvntSVlpjacY-D1s30l5mtSMcd8jfnFdWhtchKEbSf7hWfVvd-aMNUGYpk6yj_V);
+  background-position: 0 100%;
+  background-repeat: no-repeat no-repeat;
+  background-size: cover;
+}
+#list_surround {
+  background-attachment: scroll;
+  background-image: url(https://image.myanimelist.net/ui/tUy9QTY4RkAguovxW_qL109TEceH7XvMxFzWNbwTOAoEf3TgM9H9fbVn_radL8m0);
+  background-position: 100% 0;
+  background-repeat: no-repeat no-repeat;
+  background-size: 100% auto;
+  font-size: 16px;
+  left: 7% !important;
+  margin: 0 auto;
+  padding-bottom: 0;
+  padding-top: 175px;
+  position: absolute;
+  top: 44px;
+  width: 700px;
+  z-index: 5;
+}
+tr:hover td.td1,
+tr:hover td.td2,
+tr:hover td.td1 a,
+tr:hover td.td2 a {
+  color: ;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px black;
+  transition: all 0.4s ease 0s;
+}
+tr:hover [class^="td"] {
+  background-color: #508cc2;
+  transition: all 0.4s ease 0s;
+}
+a {
+  color: white;
+  text-shadow: none;
+}
+a:hover {
+  color: yellow !important;
+}
+.table_header {
+  background-color: #508cc2;
+  padding: 4px;
+}
+.table_header:first-of-type {
+  border-radius: 12px 0 0 0;
+}
+.table_header:nth-of-type(2) {
+  text-align: left;
+}
+.table_header:nth-of-type(5) {
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 12px;
+}
+.td1,
+.td2,
+.status_selected,
+.status_not_selected,
+.category_totals {
+  background-color: rgba(129, 190, 225, 0.7);
+  border: 0 none;
+  padding: 4px;
+  text-align: center;
+  vertical-align: top;
+  transition: background-color 0.5s ease 0s;
+}
+.td1:nth-of-type(2),
+.td2:nth-of-type(2) {
+  text-align: left;
+}
+.table_header:nth-of-type(6) {
+  display: none;
+  width: 0;
+}
+small {
+  color: #abc779;
+  font-size: 14px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px black;
+}
+.table_header,
+.td1,
+.td2,
+.category_totals {
+  color: white;
+}
+[cellspacing="0"] {
+  line-height: 17px;
+}
+.category_totals {
+  background-color: #508cc2;
+  border-radius: 0 0 12px 12px;
+  color: white;
+  text-align: center;
+}
+
+[class^="header_"] * {
+  background-repeat: no-repeat no-repeat;
+  font-size: 0;
+  height: 245px;
+  line-height: 24px;
+  padding-bottom: 0;
+  text-align: right;
+  vertical-align: bottom;
+}
+.header_title {
+  border-radius: 4px 4px 4px 4px;
+  color: #ffffff;
+  display: inline-block;
+  font-style: italic;
+  height: auto;
+  padding: 0 8px 0 0;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+#grand_totals {
+  background-color: #508cc2;
+  border: 0 none;
+  border-radius: 3px 3px 3px 3px;
+  color: #ffffff;
+  line-height: 20px;
+  min-height: 20px;
+  padding: 8px;
+  text-align: center;
+  vertical-align: middle;
+}
+.status_not_selected {
+  opacity: 0.75;
+  right: -95px !important;
+  transition: all 0.4s ease 0s;
+}
+.status_not_selected:hover {
+  color: transparent;
+  opacity: 1;
+  right: -8px !important;
+  transition: all 0.4s ease 0s;
+}
+.status_selected a,
+.status_not_selected a,
+.status_selected:hover a,
+.status_not_selected:hover a {
+  color: transparent;
+  display: block;
+  height: 100px;
+  opacity: 0;
+  width: 300px;
+}
+.status_selected {
+  display: block;
+}
+.status_not_selected {
+  display: block;
+}
+.header_cw {
+  background-color: transparent;
+  background-image: url(https://image.myanimelist.net/ui/LHvntSVlpjacY-D1s30l5k5giuTgXxKWs-vkO5pIGfEZEL-U-3mvRX55SrFcGW1_);
+  background-position: 50% 3px;
+  background-repeat: no-repeat no-repeat;
+  height: 200px;
+  margin-bottom: -42px;
+}
+.header_completed {
+  background-color: transparent;
+  background-image: url(https://image.myanimelist.net/ui/gSkMRcmJluH4Uo_F-Ya7DYY1Gt-YhHEwXx5FZYDQiXTtLKEgM1sGrEou3pcYHdeo);
+  background-position: 50% 2px;
+  background-repeat: no-repeat no-repeat;
+  height: 200px;
+  margin-bottom: -44px;
+  z-index: 0;
+}
+.header_onhold {
+  background-color: transparent;
+  background-image: url(https://image.myanimelist.net/ui/MHaOlBrkklS2yN3DPEI1dZ4Kgblv9MjW1dX6k_IVdm_9GGlBYk4dcENj6_vlPlO6);
+  background-position: 50% 2px;
+  background-repeat: no-repeat no-repeat;
+  height: 200px;
+  margin-bottom: -44px;
+}
+.header_dropped {
+  background-color: transparent;
+  background-image: url(https://image.myanimelist.net/ui/MHaOlBrkklS2yN3DPEI1dTlsk064fD3YzGeRgsJi5G62fjkXQVDzsxBwUJMPwiRE);
+  background-position: 50% 2px;
+  background-repeat: no-repeat no-repeat;
+  height: 200px;
+  margin-bottom: -44px;
+}
+.header_ptw {
+  background-color: transparent;
+  background-image: url(https://image.myanimelist.net/ui/tUy9QTY4RkAguovxW_qL15oP3KtdWqNLAQYbcsaJSFR9-vuywjWVEQOGyhg9PMKO);
+  background-position: 50% 2px;
+  background-repeat: no-repeat no-repeat;
+  height: 200px;
+  margin-bottom: -44px;
+}
+#list_surround .status_selected,
+#list_surround .status_not_selected {
+  background-attachment: scroll;
+  background-color: transparent;
+  background-image: url(https://image.myanimelist.net/ui/tUy9QTY4RkAguovxW_qL16ZIyTB-JFL8p2oRtqVlCKuuvffSgNeZ1Zq8uhwAGPuL);
+  background-position: 0 0;
+  background-repeat: no-repeat no-repeat;
+  border: 2px solid white !important;
+  border-radius: 15px 0 0 0;
+  display: block;
+  height: 100px;
+  padding: 0;
+  position: fixed;
+  right: -3px;
+  top: 220px;
+  width: 300px;
+}
+#list_surround .status_selected + .status_not_selected,
+#list_surround .status_not_selected + .status_selected,
+#list_surround .status_not_selected + .status_not_selected {
+  background-attachment: scroll;
+  background-color: transparent;
+  background-image: url(https://image.myanimelist.net/ui/_B7XFEd-wjjT1D3dlGxWyLmLjRPYC58lJ6FzlDtgG9BxuAlggS-2k97sO8VFAFdi);
+  background-repeat: no-repeat no-repeat;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  top: 322px;
+}
+#list_surround .status_selected + .status_not_selected + .status_not_selected,
+#list_surround .status_not_selected + .status_selected + .status_not_selected,
+#list_surround .status_not_selected + .status_not_selected + .status_selected,
+#list_surround
+  .status_not_selected
+  + .status_not_selected
+  + .status_not_selected {
+  background-attachment: scroll;
+  background-color: transparent;
+  background-image: url(https://image.myanimelist.net/ui/gSkMRcmJluH4Uo_F-Ya7DZQQy9mHPNtgtU6jzFCxJup93fGkKvSTfGqNEy0H18gF);
+  top: 424px;
+}
+#list_surround
+  .status_selected
+  + .status_not_selected
+  + .status_not_selected
+  + .status_not_selected,
+#list_surround
+  .status_not_selected
+  + .status_selected
+  + .status_not_selected
+  + .status_not_selected,
+#list_surround
+  .status_not_selected
+  + .status_not_selected
+  + .status_selected
+  + .status_not_selected,
+#list_surround
+  .status_not_selected
+  + .status_not_selected
+  + .status_not_selected
+  + .status_selected,
+#list_surround
+  .status_not_selected
+  + .status_not_selected
+  + .status_not_selected
+  + .status_not_selected {
+  background-attachment: scroll;
+  background-color: transparent;
+  background-image: url(https://image.myanimelist.net/ui/LHvntSVlpjacY-D1s30l5jvxpVUUthT8hEUj8iW61D5isKB8dSl_EDPNTKYlh2JE);
+  background-repeat: repeat repeat;
+  top: 526px;
+}
+#list_surround
+  .status_selected
+  + .status_not_selected
+  + .status_not_selected
+  + .status_not_selected
+  + .status_not_selected,
+#list_surround
+  .status_not_selected
+  + .status_selected
+  + .status_not_selected
+  + .status_not_selected
+  + .status_not_selected,
+#list_surround
+  .status_not_selected
+  + .status_not_selected
+  + .status_selected
+  + .status_not_selected
+  + .status_not_selected,
+#list_surround
+  .status_not_selected
+  + .status_not_selected
+  + .status_not_selected
+  + .status_selected
+  + .status_not_selected,
+#list_surround
+  .status_not_selected
+  + .status_not_selected
+  + .status_not_selected
+  + .status_not_selected
+  + .status_selected,
+#list_surround
+  .status_not_selected
+  + .status_not_selected
+  + .status_not_selected
+  + .status_not_selected
+  + .status_not_selected {
+  background-attachment: scroll;
+  background-color: transparent;
+  background-image: url(https://image.myanimelist.net/ui/MHaOlBrkklS2yN3DPEI1dTqgOLjKO4wDay3B3PHNOB17tIzqs7pqh7i1BWON4-NE);
+  top: 628px;
+}
+#list_surround
+  .status_selected
+  + .status_not_selected
+  + .status_not_selected
+  + .status_not_selected
+  + .status_not_selected
+  + .status_not_selected,
+#list_surround
+  .status_not_selected
+  + .status_selected
+  + .status_not_selected
+  + .status_not_selected
+  + .status_not_selected
+  + .status_not_selected,
+#list_surround
+  .status_not_selected
+  + .status_not_selected
+  + .status_selected
+  + .status_not_selected
+  + .status_not_selected
+  + .status_not_selected,
+#list_surround
+  .status_not_selected
+  + .status_not_selected
+  + .status_not_selected
+  + .status_selected
+  + .status_not_selected
+  + .status_not_selected,
+#list_surround
+  .status_not_selected
+  + .status_not_selected
+  + .status_not_selected
+  + .status_not_selected
+  + .status_selected
+  + .status_not_selected,
+#list_surround
+  .status_not_selected
+  + .status_not_selected
+  + .status_not_selected
+  + .status_not_selected
+  + .status_not_selected
+  + .status_selected,
+#list_surround
+  .status_not_selected
+  + .status_not_selected
+  + .status_not_selected
+  + .status_not_selected
+  + .status_not_selected
+  + .status_not_selected {
+  background-attachment: scroll;
+  background-color: transparent;
+  background-image: url(https://image.myanimelist.net/ui/gSkMRcmJluH4Uo_F-Ya7Df0Q7WEF-eU46gnhxCChXPFZS7piiqaQ8CIfUMavU0Eb);
+  background-position: 0 0;
+  background-repeat: no-repeat no-repeat;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  top: 730px;
+  width: 300px;
+}
+td[class^="td"]:nth-of-type(2) {
+  width: 454px !important;
+}
+.table_header:nth-of-type(6),
+span[id*="tagLinks"],
+div[id*="tagChangeRow"] {
+  display: none !important;
+}
+td[class^="td"]:nth-of-type(6) {
+  width: 0;
+  color: white !important;
+  text-shadow: 1px 2px 3px black !important;
+  font-weight: normal !important;
+}
+span[id*="tagRow"] {
+  background-color: rgba(129, 190, 225, 1);
+  border-radius: 16px;
+  display: block !important;
+  line-height: 15px !important;
+  padding: 8px 8px 8px;
+  position: fixed;
+  left: 850px;
+  top: 515px;
+  visibility: hidden;
+  width: 212px;
+  box-shadow: 1px 4px 6px #000000;
+  z-index: 1;
+}
+tr:hover span[id*="tagRow"] {
+  visibility: visible;
+}
+:hover + .hide {
+  background-color: rgba(129, 190, 225, 0.7);
+  background-position: 50% 50% !important;
+  background-repeat: no-repeat !important;
+  background-size: auto auto !important;
+  border-color: #ffffff;
+  border-radius: 16px;
+  border-style: solid;
+  border-width: 0px;
+  box-shadow: 1px 4px 6px #000000;
+  display: block !important;
+  height: 350px;
+  position: fixed;
+  left: 850px;
+  top: 160px;
+  width: 226px;
+  z-index: 1;
+}
+
+#copyright,
+#copyright:hover {
+  background-color: #508cc2 !important;
+  border-radius: 5px 5px 0px 0px;
+  bottom: 0;
+  color: white;
+  padding: 2px;
+  width: 100%;
+}
+
+#copyright:before {
+  color: black;
+  content: "Design by SylakentH, credits go to respective artists";
+  font-size: 14px;
+  padding-right: 10px;
+}
+#copyright:after {
+  color: black;
+}
+
+/* cursor made by imvustylez.net */
+body {
+  cursor: url(https://image.myanimelist.net/ui/FgwjWzL2AKx2sXVwra1RVU8xhfXwceVadHjPNm7F4NOd8B9EYSck3bSCnDTVwF01wqyd77F_-xde7OJB7N45X8vEe3pnt5XZY3sEPRrFLUg),
+    default;
+}
