@@ -1,17 +1,17 @@
 @\import "https://malscraper.azurewebsites.net/covers/anime/stradivari96/presets/more";
-@\import "https://cdn.jsdelivr.net/gh/stradivari96/Myanimelist/stradivari96/blacktopbar.css";
+@\import "https://www.xiang.dev/Myanimelist/stradivari96/blacktopbar.css";
 @\import "https://fonts.googleapis.com/css?family=Shadows+Into+Light";
 @\import "https://fonts.googleapis.com/css?family=Handlee";
 
 a, body {
-    cursor: url(https://rawcdn.githack.com/stradivari96/Myanimelist/8bd04458038eb364aebb6a9ef18fbc3dd912898d/stradivari96/lol.cur) 1 1, auto;
+    cursor: url(https://www.xiang.dev/Myanimelist/stradivari96/lol.cur) 1 1, auto;
 }
 
 body {
     color:#FFFFFF;
     font-family:Handlee;
     background-attachment:fixed !important;
-    background-image:url(https://rawcdn.githack.com/stradivari96/Myanimelist/52f69c59b13b28807a92717ee9854453e83a3c45/stradivari96/your-name.webp);
+    background-image:url(https://www.xiang.dev/Myanimelist/stradivari96/your-name.webp);
     background-size:cover;
 }
 
