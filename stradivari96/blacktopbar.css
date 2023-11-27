@@ -1,400 +1,271 @@
-/*
-COLOR OF THE ICONS
-*/
- #mal\_cs\_listinfo:before,  #mal\_cs\_links:before, 
- #mal\_cs\_otherlinks:before,  #mal\_cs\_powered:before {
-background-color: transparent !important;;
+div > table:first-of-type {
+  background: url("https://i.imgur.com/ALqVfrB.png") no-repeat scroll 100% 0
+    transparent;
+  display: block;
+  height: 0 !important;
+  overflow: hidden;
+  padding-top: 32px !important;
+  position: fixed;
+  right: 4px;
+  table-layout: fixed;
+  text-align: center;
+  top: 4px;
+  width: auto !important;
+  z-index: 6;
+  -moz-box-sizing: border-box;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
 }
-
-/*
-COLOR OF SELECTED ICONS AND DROPDOWN MENUS ON HOVER
-*/
- #mal\_cs\_listinfo div,  #mal\_cs\_links div,  #mal\_cs\_otherlinks div, 
- #mal\_cs\_powered div,  #mal\_cs\_powered dd,  #mal\_cs\_powered a {
-background-color: rgba(255, 255, 255, 0.6) !important;
+div > table:first-of-type:hover {
+  background: url("https://i.imgur.com/v5dQoJN.png") no-repeat scroll 100% 0
+    transparent !important;
+  height: 250px !important;
+  width: auto !important;
 }
-
- #mal\_cs\_listinfo:hover:before,  #mal\_cs\_links:hover:before, 
- #mal\_cs\_otherlinks:hover:before,  #mal\_cs\_powered:hover:before{
-}
-
-
-
-/*
-COLOR OF USERNAME (for visitors)
-You don't see this username on the menus when you're logged in, log out to see it. 
-*/
- #mal\_cs\_otherlinks strong a {
-color: ;
-}
- #mal\_cs\_otherlinks strong a:hover {
-color: ;
-background-color: transparent !important;
-}
-
-
-
-/*
-BUTTONS COLOR AND BORDER
-Buttons within the hover menus, not the icons themselves. 
-Second code is for button color on hover. 
-*/
- #mal_cs_listinfo a,  #mal_cs_links a,  #mal_cs_otherlinks a,  #mal_cs_powered a img{
-    background-color: rgba(64, 60, 90, 0.6) !important;
-    border-color: transparent;
-    border-style: solid !important;
-    border-width: 1px !important;
-}
- #mal\_cs\_listinfo a:hover,  #mal\_cs\_links a:hover,  #mal\_cs\_otherlinks a:hover,  #mal_cs_powered a img:hover {
-background-color: #403C5A !important;
-}
-
-
-
-
-
-/*
-HEAD ICON
-The bottom two codes are the icon seen and icon seen on hover. The first two codes are the same but will cover the others. 
-*/
-
-#mal\_cs\_listinfo {
-background-image: url(https://image.myanimelist.net/ui/NMhxKjGdQ21NnPG4rzwny40V2GRayh8zIXb1vBDeVsSsebP45FKI481PZCi7THnZ) !important;
-}
- #mal\_cs\_listinfo:hover {
-background-image: url(https://image.myanimelist.net/ui/NMhxKjGdQ21NnPG4rzwnywo40QNWHxrrWERXqx_RDuURXpC5itC7ztl4ccqdL9qv) !important;;
-}
- #mal\_cs\_listinfo:after{
-
-}
- #mal\_cs\_listinfo:hover:after {
-
-}
-
-
-/*
-HOME ICON
-The bottom two codes are the icon seen and icon seen on hover. The first two codes are the same but will cover the others. 
-*/
-
-
-#mal\_cs\_links {
-    background-image: url(https://image.myanimelist.net/ui/NMhxKjGdQ21NnPG4rzwny1tufp8zHsoK_k2ukr70_7Mx_d93fDoguVo4VFak2MUe) !important;
-
-}
-#mal\_cs\_links:hover {
-    background-image: url(https://image.myanimelist.net/ui/NMhxKjGdQ21NnPG4rzwny9oHlzBXUqPnHP6PAtePQGFwVgjeO2RzFPiyA2rKdr87) !important;
-}
-#mal\_cs\_links:after{
-}
-#mal\_cs\_links:hover:after{
-}
-
-
-/*
-BARS ICON
-The bottom two codes are the icon seen and icon seen on hover. The first two codes are the same but will cover the others. 
-*/
-
- #mal\_cs\_otherlinks {
-    background-image: url(https://image.myanimelist.net/ui/NMhxKjGdQ21NnPG4rzwnyxQIDfKMhJ_vcGLF3xCfQk6YcSsXM4rEwuT6MuiSGM-6) !important;
-}
- #mal\_cs\_otherlinks:hover {
-    background-image: url(https://image.myanimelist.net/ui/NMhxKjGdQ21NnPG4rzwny1qZZP7JdTfhwI-JgO0ykDKOvRxYg6hhmBIyNGVCiInA) !important;
-}
- #mal\_cs\_otherlinks:after{
-} 
- #mal\_cs\_otherlinks:hover:after{
-} 
-
-
-/*
-MAGNIFIER ICON
-The bottom two codes are the icon seen and icon seen on hover. The first two codes are the same but will cover the others. 
-*/
- #mal\_cs\_powered {
-    background-image: url(https://image.myanimelist.net/ui/NMhxKjGdQ21NnPG4rzwny6XNkn6NrEamiaQyax2HS4nlDvFQwP-UhraEXGGqsJHg) !important;
-}
- #mal\_cs\_powered:hover {
-   background-image: url(https://image.myanimelist.net/ui/NMhxKjGdQ21NnPG4rzwnyw94KNUfNT65gakw2B-fFqIsts_TnseToVzXgZ_nWI5D) !important;
-}
- #mal\_cs\_powered:after{
-}
- #mal\_cs\_powered:hover:after{
-}
-
-
-/*
-OTHER IMAGES
-*/
- #mal\_cs\_powered a img {
-background: url(https://image.myanimelist.net/ui/NMhxKjGdQ21NnPG4rzwny2i0sWXwIyM-KR0QEwOqMADidf7Gum58IqV339I83BwA) no-repeat scroll 50% 6px rgba(64, 60, 90, 0.6);
-
-}
- #mal\_cs\_powered #search #searchListButton {
-background: url(https://image.myanimelist.net/ui/NMhxKjGdQ21NnPG4rzwny6tBwtBw70BO1WsVpWvyDsSNn0HrLPJi7DocutwcouXz) no-repeat scroll 0 0 transparent !important;
-}
-
-#mal\_control\_strip
-{
-background-image: url(https://image.myanimelist.net/ui/uqwkn3zl0fMrMuaC28cB8Q) !important;
-}
-
-/*
-BORDER OF ICONS
-
-*/
- #mal_cs_listinfo:before,  #mal_cs_links:before,  #mal_cs_otherlinks:before,  #mal_cs_powered:before,  #mal\_cs\_listinfo:before,  #mal\_cs\_links:before, 
- #mal\_cs\_otherlinks:before,  #mal\_cs\_powered:before {
-    border-color: ;
-    border-style: ;
-    border-width: ;
-    height: 32px !important;
-}
-
-/*
-POSITION OF TOP BAR
-Change to absolute if you want it to not scroll with the page.
-*/
-#mal\_control\_strip
-{
-position: fixed !important;
-background-color: transparent !important;
-}
-
-
-/*
-Unused Color of Icons
-This should cover the icons, and also has a square border.
-*/
-
- #mal\_cs\_listinfo:after,  #mal\_cs\_links:after, 
- #mal\_cs\_otherlinks:after,  #mal\_cs\_powered:after {
-background-color: transparent !important;;
-}
-
-/*
-Unused Color of Hover Icons
-*/
- #mal\_cs\_listinfo:hover:after,  #mal\_cs\_links:hover:after, 
- #mal\_cs\_otherlinks:hover:after,  #mal\_cs\_powered:hover:after {
-background-color: transparent !important;;
-}
-
-
-
-/*
-OTHER CODES
-If you want to change out the icon images themselves, you can scroll down through the codes and find the background images and change them with your own.
-*/
-
-#mal\_cs\_listinfo:hover:before,  #mal\_cs\_links:hover:before, 
-#mal\_cs\_otherlinks:hover:before,  #mal\_cs\_powered:hover:before{
-border-bottom-left-radius:0px;
-border-bottom-right-radius:0px;
-}
-
-
- #mal\_cs\_listinfo,  #mal\_cs\_links,  #mal\_cs\_otherlinks,  #mal\_cs\_powered {
--moz-box-sizing: border-box;
-transition: all 0.4s ease 0s;
-background: none no-repeat scroll 100% 0 transparent;
-border: 0 none;
-height: 0 !important;
-overflow: hidden;
-position: absolute;
-right: 4px;
-text-align: center;
-top: 4px;
-width: 150px;
-z-index: 10;
-}
- #mal\_cs\_listinfo:hover,  #mal\_cs\_links:hover,  #mal\_cs\_otherlinks:hover,  #mal\_cs\_powered:hover {
-height: 220px !important;
-padding-top: 32px;
-width: 150px;
-}
- #mal\_cs\_listinfo div,  #mal\_cs\_links div,  #mal\_cs\_otherlinks div,  #mal\_cs\_powered div,  #mal\_cs\_powered dd {
-transition: opacity 0.4s ease-in-out 0s;
-border-radius: 3px 0 0 0;
-font-size: 0 !important;
-line-height: 0;
-margin: 0 !important;
-opacity: 0;
-padding: 8px 0 0;
-}
- #mal\_cs\_listinfo:hover div,  #mal\_cs\_links:hover div,  #mal\_cs\_otherlinks:hover div,  #mal\_cs\_powered:hover div,  #mal\_cs\_powered:hover dd {
-opacity: 1;
-}
- #mal\_cs\_listinfo div:nth-of-type(2),  #mal\_cs\_links div:nth-of-type(2),  #mal\_cs\_otherlinks div:nth-of-type(2),  #mal\_cs\_powered div:nth-of-type(2) {
-border-radius: 0 0 3px 3px;
-padding: 4px 0 8px;
-}
- #mal\_cs\_listinfo a,  #mal\_cs\_links a,  #mal\_cs\_otherlinks a,  #mal\_cs\_powered a {
-background-color: rgba(64, 60, 90, 0.6);
-border-radius: 3px 3px 3px 3px;
-display: block;
-font: 13px/17px arial,sans-serif;
-margin: 4px 12px 0;
-padding: 3px 0;
-text-decoration: none;
-}
- #mal\_cs\_listinfo a:nth-of-type(1),  #mal\_cs\_links a:nth-of-type(1),  #mal\_cs\_otherlinks a:nth-of-type(1),  #mal\_cs\_powered a:nth-of-type(1) {
-margin-top: 0;
-}
-
- #mal\_cs\_listinfo strong a strong {
-font-weight: normal;
-}
- #mal\_cs\_otherlinks strong {
-color: #333333;
-display: block;
-font: bold 13px/17px arial,sans-serif !important;
-padding: 0 4px 4px;
-text-shadow: 0 1px 1px #FFFFFF;
-}
- #mal\_cs\_otherlinks strong a {
-background: none repeat scroll 0 0 transparent !important;
-border-color: transparent !important;
-border-radius: 0 0 0 0;
-color: #333333;
-display: inline;
-font: bold 13px/17px arial,sans-serif !important;
-margin: 0;
-padding: 0;
-text-shadow: 0 1px 1px #FFFFFF;
-}
- #mal\_cs\_powered a {
-border-radius: 3px 0 0 0 !important;
-display: block !important;
-margin: 0 !important;
-opacity: 0;
-padding: 8px 0 0 !important;
-}
- #mal\_cs\_powered:hover a {
-opacity: 1;
-}
- #mal\_cs\_powered a img {
-border-radius: 3px 3px 3px 3px;
-display: block;
-height: 0;
-margin: 0 12px;
-padding: 23px 0 0 126px;
-width: 0;
-}
- #mal\_cs\_powered a img:hover {
-background-color: #403C5A;
-}
- #mal\_cs\_powered #search {
-border-radius: 0 0 3px 3px;
-padding: 8px;
-position: relative;
-}
- #mal\_cs\_powered #search #searchBox {
--moz-box-sizing: border-box;
-border-color: #BCBCBC #D6D6D6 #D6D6D6;
-border-radius: 2px 2px 2px 2px;
-border-style: solid;
-border-width: 1px;
-color: #333333;
-display: inline-block;
-font-family: arial,sans-serif;
-font-size: 13px;
-height: 28px;
-padding-left: 3px;
-padding-right: 24px;
-vertical-align: top;
-width: 100%;
-width: 128px !important;
-}
- #mal\_cs\_powered #search #searchBox:hover,  #mal\_cs\_powered #search #searchBox:focus {
-border-color: #ACACAC #C6C6C6 #C6C6C6;
-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
-}
- #mal\_cs\_powered #search #searchListButton {
-border-radius: 3px 3px 3px 3px;
-height: 0;
-margin: 0;
-padding: 16px 0 0 16px;
-position: absolute;
-right: 12px;
-top: 14px;
-width: 0;
-}
- #mal\_cs\_listinfo {
-right: 106px;
-}
-
- #mal\_cs\_links {right: 72px;
-z-index: 9;
-}
-
- #mal\_cs\_otherlinks {
-right: 38px;
-z-index: 8;
-}
- #mal\_cs\_otherlinks:hover {
-}
- #mal\_cs\_powered {
-right: 4px !important;
-z-index: 7;
-}
- #mal\_cs\_powered:hover {
-}
-td#mal\_cs\_pic a img {
-display: none;
-}
-#mal\_cs\_pic, #mal\_cs\_listinfo, #mal\_cs\_links {
-border-right: 0 none !important;
-}
-
- #mal\_cs\_listinfo,  #mal\_cs\_links,  #mal\_cs\_otherlinks,  #mal\_cs\_powered {
-padding: 32px 0 0 !important;
-}
-
- #mal\_cs\_listinfo:before, 
- #mal\_cs\_links:before, 
- #mal\_cs\_otherlinks:before, 
- #mal\_cs\_powered:before {
-  z-index: 10 !important;
-  content: "";
-  right: 0 !important;
-  top: 0 !important;
-  width: 32px !important;
-  position: absolute !important;
-  border-radius: 4px;
-}               
-
-
-
- #mal\_cs\_listinfo:after, 
- #mal\_cs\_links:after, 
- #mal\_cs\_otherlinks:after, 
- #mal\_cs\_powered:after {
-  z-index: 10 !important;
-  content: "";
-  right: 0 !important;
-  top: 0 !important;
-  width: 32px !important;
+div > table:first-of-type tbody {
   height: 32px !important;
-  position: absolute !important;
+  overflow: hidden;
 }
-
+div > table:first-of-type tr {
+  background: none repeat scroll 0 0 rgba(255, 255, 255, 0.6);
+  border-radius: 3px 0 3px 3px;
+  display: block;
+  padding: 8px 0 4px;
+}
+div > table:first-of-type td {
+  background: none repeat scroll 0 0 rgba(255, 255, 255, 0);
+  display: block;
+  width: 100%;
+}
+div > table:first-of-type a {
+  background-color: rgba(64, 60, 90, 0.6);
+  border-radius: 3px 3px 3px 3px;
+  color: #ffffff;
+  display: block;
+  font: 13px/17px "Arial", sans-serif;
+  margin: 0 12px 4px;
+  padding: 3px 16px;
+  text-decoration: none;
+}
+div > table:first-of-type a:hover {
+  background-color: #403c5a;
+  color: white;
+}
+#mal_cs_listinfo,
+#mal_cs_links,
+#mal_cs_otherlinks,
+#mal_cs_powered {
+  -moz-box-sizing: border-box;
+  -moz-transition: all 0.4s ease 0s;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  background: none no-repeat scroll 100% 0 transparent;
+  border: 0 none;
+  height: 0 !important;
+  overflow: hidden;
+  padding: 32px 0 0 !important;
+  position: fixed;
+  right: 4px;
+  text-align: center;
+  top: 4px;
+  width: 150px !important;
+  z-index: 10;
+}
+#mal_cs_listinfo:hover,
+#mal_cs_links:hover,
+#mal_cs_otherlinks:hover,
+#mal_cs_powered:hover {
+  height: 200px !important;
+  padding-top: 32px !important;
+}
+#mal_cs_listinfo div,
+#mal_cs_links div,
+#mal_cs_otherlinks div,
+#mal_cs_powered div,
+#mal_cs_powered dd {
+  -moz-transition: all 0.4s ease 0s;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 3px 0 0 0;
+  font-size: 0 !important;
+  line-height: 0;
+  margin: 0 !important;
+  opacity: 0;
+  padding: 8px 0 0 !important;
+}
+#mal_cs_listinfo:hover div,
+#mal_cs_links:hover div,
+#mal_cs_otherlinks:hover div,
+#mal_cs_powered:hover div,
+#mal_cs_powered:hover dd {
+  opacity: 1;
+}
+#mal_cs_listinfo div:nth-of-type(2),
+#mal_cs_links div:nth-of-type(2),
+#mal_cs_otherlinks div:nth-of-type(2),
+#mal_cs_powered div:nth-of-type(2) {
+  border-radius: 0 0 3px 3px;
+  padding: 4px 0 8px !important;
+}
+#mal_cs_listinfo a,
+#mal_cs_links a,
+#mal_cs_otherlinks a,
+#mal_cs_powered a {
+  background-color: rgba(64, 60, 90, 0.6) !important;
+  border-radius: 3px 3px 3px 3px;
+  display: block;
+  font: 13px/17px "Arial", sans-serif !important;
+  margin: 4px 12px 0;
+  padding: 3px 0 !important;
+  text-decoration: none;
+}
+#mal_cs_listinfo a:nth-of-type(1),
+#mal_cs_links a:nth-of-type(1),
+#mal_cs_otherlinks a:nth-of-type(1),
+#mal_cs_powered a:nth-of-type(1) {
+  margin-top: 0;
+}
+#mal_cs_listinfo a:hover,
+#mal_cs_links a:hover,
+#mal_cs_otherlinks a:hover {
+  background-color: #403c5a !important;
+}
+#mal_cs_listinfo strong a strong {
+  font-weight: normal;
+}
+#mal_cs_otherlinks strong {
+  color: #333333;
+  display: block;
+  font: bold 13px/17px "Arial", sans-serif !important;
+  padding: 0 4px 4px;
+  text-shadow: 0 1px 1px #ffffff;
+}
+#mal_cs_otherlinks strong a {
+  background: none repeat scroll 0 0 transparent !important;
+  border-radius: 0 0 0 0;
+  color: #333333;
+  display: inline;
+  font: bold 13px/17px "Arial", sans-serif !important;
+  margin: 0;
+  padding: 0;
+  text-shadow: 0 1px 1px #ffffff;
+}
+#mal_cs_powered a {
+  background-color: rgba(255, 255, 255, 0.6) !important;
+  border-radius: 3px 0 0 0 !important;
+  display: block !important;
+  margin: 0 !important;
+  opacity: 0;
+  padding: 8px 0 0 !important;
+}
+#mal_cs_powered:hover a {
+  opacity: 1;
+}
+#mal_cs_powered a img {
+  -moz-transition: all 0.4s ease 0s;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  background: url("https://i.imgur.com/fGTjBC3.png") no-repeat scroll 50% 6px
+    rgba(64, 60, 90, 0.6);
+  border-radius: 3px 3px 3px 3px;
+  display: block;
+  height: 0;
+  margin: 0 12px;
+  padding: 23px 0 0 126px;
+  width: 0;
+}
+#mal_cs_powered a img:hover {
+  background-color: #403c5a;
+}
+#mal_cs_powered #search {
+  border-radius: 0 0 3px 3px;
+  padding: 8px !important;
+  position: relative;
+}
 #searchBox {
-    width: 128px !important;
-    margin-left: 2px;
+  -moz-box-sizing: border-box;
+  border-color: #bcbcbc #d6d6d6 #d6d6d6;
+  border-radius: 2px 2px 2px 2px;
+  border-style: solid;
+  border-width: 1px;
+  color: #333333;
+  display: inline-block;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  height: 28px;
+  padding-left: 6px !important;
+  padding-right: 24px !important;
+  vertical-align: top;
+  width: 100px;
+}
+#searchBox:hover,
+#searchBox:focus {
+  border-color: #acacac #c6c6c6 #c6c6c6;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+}
+#searchListButton {
+  background: url("https://i.imgur.com/XqsilHp.png") no-repeat scroll 0 0
+    transparent !important;
+  border-radius: 3px 3px 3px 3px;
+  height: 0;
+  margin: 0;
+  padding: 16px 0 0 19px !important;
+  position: absolute;
+  right: 12px !important;
+  top: 14px !important;
+  width: 0;
+}
+#mal_cs_listinfo {
+  background-image: url("https://image.myanimelist.net/ui/NMhxKjGdQ21NnPG4rzwny40V2GRayh8zIXb1vBDeVsSsebP45FKI481PZCi7THnZ");
+  right: 172px;
+}
+#mal_cs_listinfo:hover {
+  background-image: url("https://image.myanimelist.net/ui/NMhxKjGdQ21NnPG4rzwnywo40QNWHxrrWERXqx_RDuURXpC5itC7ztl4ccqdL9qv");
+}
+#mal_cs_links {
+  background-image: url("https://image.myanimelist.net/ui/NMhxKjGdQ21NnPG4rzwny1tufp8zHsoK_k2ukr70_7Mx_d93fDoguVo4VFak2MUe");
+  right: 138px !important;
+  z-index: 9;
+}
+#mal_cs_links:hover {
+  background-image: url("https://image.myanimelist.net/ui/NMhxKjGdQ21NnPG4rzwny9oHlzBXUqPnHP6PAtePQGFwVgjeO2RzFPiyA2rKdr87");
+}
+#mal_cs_otherlinks {
+  background-image: url("https://image.myanimelist.net/ui/NMhxKjGdQ21NnPG4rzwnyxQIDfKMhJ_vcGLF3xCfQk6YcSsXM4rEwuT6MuiSGM-6");
+  right: 104px !important;
+  z-index: 8;
+}
+#mal_cs_otherlinks:hover {
+  background-image: url("https://image.myanimelist.net/ui/NMhxKjGdQ21NnPG4rzwny1qZZP7JdTfhwI-JgO0ykDKOvRxYg6hhmBIyNGVCiInA");
+}
+#mal_cs_powered {
+  background-image: url("https://image.myanimelist.net/ui/NMhxKjGdQ21NnPG4rzwny6XNkn6NrEamiaQyax2HS4nlDvFQwP-UhraEXGGqsJHg");
+  position: fixed !important;
+  right: 70px !important;
+  z-index: 7;
+}
+#mal_cs_powered:hover {
+  background-image: url("https://image.myanimelist.net/ui/NMhxKjGdQ21NnPG4rzwnyw94KNUfNT65gakw2B-fFqIsts_TnseToVzXgZ_nWI5D");
+}
+#mal\_control\_strip {
+  background: none repeat scroll 0 0 transparent !important;
+}
+#mal_cs_pic img {
+  display: none;
+}
+#mal_cs_pic,
+#mal_cs_listinfo,
+#mal_cs_links {
+  border-right: 0 none !important;
 }
 
-#mal_cs_powered #search #searchListButton {
-    right: 15px !important;
-    top: 12px !important;
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  #searchBox {
+    width: 95px !important;
+  }
 }
-
-
-
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-#searchBox {
-    width: 96px !important;
-}
-}
-      
