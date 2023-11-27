@@ -170,7 +170,7 @@ div > table:first-of-type a:hover {
   -webkit-transition: all 0.4s ease 0s;
   -o-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
-  background: url("https://i.imgur.com/fGTjBC3.png") no-repeat scroll 50% 6px
+  background: url("https://image.myanimelist.net/ui/NMhxKjGdQ21NnPG4rzwny2i0sWXwIyM-KR0QEwOqMADidf7Gum58IqV339I83BwA") no-repeat scroll 50% 6px
     rgba(64, 60, 90, 0.6);
   border-radius: 3px 3px 3px 3px;
   display: block;
@@ -209,7 +209,7 @@ div > table:first-of-type a:hover {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
 }
 #searchListButton {
-  background: url("https://i.imgur.com/XqsilHp.png") no-repeat scroll 0 0
+  background: url("https://image.myanimelist.net/ui/NMhxKjGdQ21NnPG4rzwny6tBwtBw70BO1WsVpWvyDsSNn0HrLPJi7DocutwcouXz") no-repeat scroll 0 0
     transparent !important;
   border-radius: 3px 3px 3px 3px;
   height: 0;
