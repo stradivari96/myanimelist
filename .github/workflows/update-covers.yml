@@ -1,0 +1,39 @@
+name: Update Anime Covers
+
+on:
+  schedule:
+    - cron: '0 3 * * *'  # Every day at 03:00 UTC
+  workflow_dispatch:
+
+jobs:
+  update-covers:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    strategy:
+      fail-fast: false
+      matrix:
+        user:
+          - username: stradivari96
+            output: stradivari96/covers.css
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install httpx
+
+      - name: Generate covers for ${{ matrix.user.username }}
+        run: |
+          python generate_covers/generate_covers.py \
+            ${{ matrix.user.username }} \
+            ${{ matrix.user.output }}
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update covers for ${{ matrix.user.username }}"
+          file_pattern: ${{ matrix.user.output }}
