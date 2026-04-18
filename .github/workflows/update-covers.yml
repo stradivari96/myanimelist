@@ -16,6 +16,8 @@ jobs:
         user:
           - username: stradivari96
             output: stradivari96/covers.css
+          - username: machule64
+            output: machule64/covers.css
 
     steps:
       - uses: actions/checkout@v4
