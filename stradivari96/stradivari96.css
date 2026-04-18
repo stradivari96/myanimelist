@@ -39,8 +39,9 @@ a {
 
 .table_header,
 .category_totals {
-  background-color: rgba(0, 0, 0, 0.8);
+  background: linear-gradient(180deg, rgba(40, 10, 10, 0.92) 0%, rgba(10, 0, 0, 0.85) 100%);
   height: 20px;
+  letter-spacing: 0.04em;
 }
 
 .category_totals {
@@ -62,21 +63,22 @@ a {
 
 .td1,
 .td2 {
-  -webkit-transition: all 0.25s ease-in-out 0s;
+  -webkit-transition: all 0.2s ease-in-out 0s;
   height: 20px;
-  transition: all 0.25s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
 }
 
 .td1 {
-  background-color: rgba(105, 0, 0, 0.5);
+  background-color: rgba(120, 20, 20, 0.6);
 }
 
 .td2 {
-  background-color: rgba(0, 0, 0, 0.498039);
+  background-color: rgba(30, 10, 10, 0.55);
 }
 
 tr:hover [class^="td"] {
-  background-color: rgba(250, 150, 50, 0.8);
+  background-color: rgba(250, 150, 50, 0.55);
+  box-shadow: inset 0 0 16px rgba(250, 130, 30, 0.2);
 }
 
 .td1:nth-of-type(2),
@@ -125,12 +127,9 @@ tr:hover [class^="td"] {
 }
 
 #grand_totals {
-  background-color: rgba(0, 0, 0, 0.8);
+  background: linear-gradient(180deg, rgba(40, 10, 10, 0.92) 0%, rgba(10, 0, 0, 0.85) 100%);
   border: 0 none;
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
+  border-radius: 6px;
   color: #ffffff;
   line-height: 20px;
   min-height: 20px;
@@ -153,10 +152,12 @@ tr:hover [class^="td"] {
   background-position: center !important;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 25px 25px 25px 25px;
+  border-radius: 14px;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.7);
   display: block !important;
   opacity: 0;
-  transition: opacity 0.12s linear 0.08s;
+  transform: scale(0.94) translateY(6px);
+  transition: opacity 0.2s ease, transform 0.22s ease;
   height: 400px;
   position: fixed;
   left: 720px;
@@ -166,6 +167,7 @@ tr:hover [class^="td"] {
 
 :hover + .hide {
   opacity: 1;
+  transform: scale(1) translateY(0);
 }
 
 /*Remove more link*/
